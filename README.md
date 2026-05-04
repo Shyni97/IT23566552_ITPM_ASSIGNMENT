@@ -41,7 +41,7 @@ Running the tests
 From the repository root (with the venv activated) run:
 
 ```powershell
-python test_automation\test_automation.py --excel "test_automation\Assignment 1 - Test cases.xlsx" --url "https://www.pixelssuite.com/chat-translator" --wait-ms 9000 --type-delay-ms 80 --slow-mo-ms 200 --save-every 1
+python test_automation\test_automation.py --excel "test_automation\Assignment 1 - Test cases.xlsx" --url "https://www.pixelssuite.com/chat-translator" --wait-ms 5000 --type-delay-ms 80 --slow-mo-ms 200 --save-every 1
 ```
 
 Optional flags
